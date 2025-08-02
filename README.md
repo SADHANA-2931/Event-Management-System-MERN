@@ -1,49 +1,39 @@
-# EventoEMS - Event Management System
+College Event Management System
+A Smart College Event Management System- Designed with a focus on campus-level event coordination, the platform simplifies everything from planning and approvals to ticket booking and QR-based verification.
 
-Introducing our Event Management System, a solution developed as part of our final year group project, designed to streamline campus event planning, registration, and ticket booking. I played a key role as the architect, creating the user interface where I incorporated modern design principles and prioritized user experience. We are developing the system using the MERN stack (MongoDB, Express.js, React.js, Node.js), and we are utilizing the agile Scrum methodology for efficient development.
+About the Project
 
-**Skills:** *Figma · Ui/ux · React.js · MongoDB · Node.js · Express.js · Requirements Analysis · User Interface Design*
+It was created to bridge the gap between event organizers and attendees in educational institutions. With features like **event scheduling, ticket booking, and QR code verification**, we aimed to deliver a seamless experience for both ends.
 
-**Features**
-* Schedule a Event.
-* View upcoming events.
-* View the event calendar.
-* Getting approval for the events.
-* Ticket Booking for the event.
-* QR Code generation for receiving tickets.
+We built this system using the MERN stack(MongoDB, Express.js, React.js, Node.js) while following agile Scrum methodology throughout development.
 
-**Technologies Used**
-* ReactJs
-* NodeJs
-* ExpressJs
-* MongoDB
-* NPM (Node Package Manager)
-* JWT webtoken
-* QR code
 
-**_Getting Started_**
+Skills & Technologies Used
 
-**Prerequisites**
-* Node.js and npm installed
-* MongoDB Database
+- Frontend: React.js, Tailwind CSS, Figma (for design)
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: JWT (JSON Web Token)
+- Others*: QR Code generation, REST APIs, Scrum methodology
 
-**Instalaltion**
-1. Clone the repository to your local machine.
-2. Navigate to the project directory. use two terminal <br>
-    **Cd Client** - For Frontend <br>
-    **Cd api** - For Backend <br>
-3. Install server dependenciesfor both frontend and backend.
-4. Create a .env file in the root directory with the following content, and replace placeholders with your own values. <br>
-     MONGODB_URI=mongodb://localhost/your-database-name
-5. Start the server.<br>
-     **ems/api:** nodemon start<br>
-     if the command is not working use **PowerShell -ExecutionPolicy Bypass nodemon** this command.
-7. Start the Client:<br>
-      **ems/client:** npm run dev
+Features
 
-**The application should now be running. You can access it at http://localhost:5173**<br>
-**The Server is running on http://localhost:4000**
+- Schedule a new event
+- View upcoming events and calendar
+- Event approval workflow
+- Book tickets for events
+- QR Code ticket generation
+- JWT-based login authentication
 
-<h1>Thank You</h1>
 
-![portfolio_1](https://github.com/Bilal025/EventoEMS/assets/95700674/001ddf1c-72b3-40bb-8e3e-975ae00ccee5)
+Getting Started
+
+Prerequisites
+
+- Node.js & npm installed on your system
+- MongoDB installed and running locally
+
+Use two terminals: one for frontend, one for backend.
+
+
+
